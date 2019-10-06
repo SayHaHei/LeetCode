@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+        var date = new Date();
+        /* dateObject 所指的星期中的某一天，使用本地时间。返回值是 0（周日） 到 6（周六） 之间的一个整数。 */
+        var day = date.getDay();
+        if(day == 1){
+            console.log("今天是星期一");
+        }
+        console.log("今天是星期" + day);
+    </script>
+</head>
+<body>
+    <!-- 请用代码写出(今天是星期 x)其中 x 表示当天是星期几,如果当天是星期一,输出应该是"今天是星期一" -->
+    <div id="day">
+
+    </div>
+</body>
+</html>
